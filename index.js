@@ -6,7 +6,7 @@ client.once('ready', () => {
 	console.log('Ready!');
 });
 
-client.long(config.token);
+client.login(config.token);
 
 // listen for messages:
 client.on('message', message => {
