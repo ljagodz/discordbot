@@ -1,0 +1,22 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "bot for discord, w/ speech recognition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljagodz/discordbot.git"
+  },
+  "author": "ljagodz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljagodz/discordbot/issues"
+  },
+  "homepage": "https://github.com/ljagodz/discordbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
