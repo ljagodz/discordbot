@@ -3,6 +3,7 @@ module.exports = {
 	description: 'Kick the selected user.',
 	args: true,
 	usage: '<user>',
+	guildOnly: true,
 	execute(message, args) {
 
 		if(!message.mentions.users.size) {
@@ -11,6 +12,6 @@ module.exports = {
 
 		const taggedUser = message.mentions.users.first();
 		message.channel.send(`You wanted to kick: ${taggedUser.username}`);
-	}
+	},
 };
 
