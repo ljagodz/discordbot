@@ -20,8 +20,8 @@ module.exports = {
 					message.reply('I have sent you a DM with all my commands!');
 				})
 				.catch(error => {
-					console.error(`Could not send help DM to ${message.author.tag}.\n`, error);
-					message.reply('it seems like I cannot DM you! Do you have DMsdisabled?');
+					console.error(`Could not send help DM to Comrade ${message.author.tag}.\n`, error);
+					message.reply('it seems like I cannot DM you! Do you have DMs disabled?');
 				});
 		}
 
